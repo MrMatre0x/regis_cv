@@ -1,0 +1,255 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #061833;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='759' height='759' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23161649' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23170468'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    }
+/* Mi bro aca comienza el header*/
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color:#0b2346;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem; 
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Aqui ajusto el espaciado entre mi nombre y lo que soy */
+
+.titulo h1 {
+    margin-bottom: 5px; /* Ajusta este valor según sea necesario */
+    color:white;
+    font-weight: 400;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo p {
+    margin-top: 0%; /* Ajusta este valor según sea necesario */
+    font-size: large;
+    font-weight: 100;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.circulo{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+    }
+
+.circulo i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.circulo a{
+    font-size: 1.5rem;
+}
+
+.circulo:hover {
+    background-color: #061833;
+}
+
+/* Mi bro aca termina el Header*/
+
+/* Aca comienza el sobre mi */
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.tituloSM h1 {
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+}
+
+.centrador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcionSM {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #0b2346;
+    padding: 1rem;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    border-radius: 0.5rem;
+}
+
+.descripcionSM p {
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 0.5rem;
+    font-size: clamp(1rem, 1.5vw + 0.5rem, 1.5rem);
+}   
+
+.experienciaLabo h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.experienciaLab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.laburos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Utilizamos auto-fit para que las tarjetas se ajusten automáticamente al ancho del contenedor */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    justify-content: space-evenly; /* Alinear las tarjetas en la cuadrícula */
+}
+
+.laburo {
+    background-color: #0b2346; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado externo entre cada card */
+    transition: box-shadow 0.3s ease;
+}
+
+.laburo:hover{
+    box-shadow: -1px 2px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 12px -2px rgba(0,0,0,0.75);
+}
+
+/* Estilos para los títulos (empresa y cargo) */
+.empresa_cargo h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: white; /* Color del texto del título */
+}
+
+.empresa_cargo h3 {
+    margin-top: 0;
+    color: whitesmoke; /* Color del texto del cargo */
+}
+
+/* Estilos para la descripción del cargo */
+.descripcion_cargo ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+
+.descripcion_cargo li {
+    margin-bottom: 5px; /* Espaciado entre los elementos de la lista */
+    color: whitesmoke; /* Color del texto de la descripción */
+}
+
+
+/* Estilos para la lista de habilidades */
+
+.habilidades h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.lista_habilidades ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.lista_habilidades li {
+    display: flex;
+    flex-direction: column; /* Alinea el ícono encima del texto */
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    color: white; /* Color del texto */
+    font-size: large;
+    font-weight: bold;
+}
+
+.lista_habilidades i {
+    font-size: 16vh; /* Ajusta el tamaño de los íconos según sea necesario */
+    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
+    color: white; /* Color del ícono */
+}
+
+/* Estilo para idiomas */
+
+.idiomas h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.idiomas ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #061833;
+    color: white;
+}
