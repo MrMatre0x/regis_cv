@@ -71,6 +71,21 @@ body {
     transition: 0.3s;
 }
 
+.lenguajes {
+    margin-right: 3rem;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+.fotopaises img{
+    aspect-ratio: 1/1;
+    width: 2rem;
+}
+
+.fotopaisesb img{
+    width: 3rem;
+}
 /* Responsive design: stack items vertically on smaller screens */
 @media (max-width: 600px) {
     .nav-list {
@@ -144,7 +159,7 @@ body {
     margin-top: 30px;
 }
 
-img {
+.foto img {
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     width: 200px;
